@@ -1,0 +1,30 @@
+body {
+    background-color: #f1f1f1;
+}
+.articles {
+    font-family: 'Inter';
+    font-style: normal;
+    align-items: flex-start;
+    padding: 0 0 36px;
+    gap: 100px;
+    width: 1120px;
+    /* height: 310px; */
+    
+    color: black;
+}
+.left-arrow {
+    opacity: 0.5;
+}
+.likes, .comments {
+    opacity: 0.5;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+/* border-bottom: 1px solid rgba(0, 0, 0, 0.2); */
+$('.carousel').carousel({
+    interval: 2000
+  })
